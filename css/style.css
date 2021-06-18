@@ -11,9 +11,9 @@ ul li {list-style: none;}
     background-image: linear-gradient(to left, #ff86b5 , #ffa857 , #ffb146 , #ffba36 , #ffc227 , #ffca19 , #f8d110 , #e5d812 , #d1de1e, #6bef63 , #3ff276 , #00f48a , #00f69f, #00f7b5 )
     }
 
-.email {background-color: rgba(133, 133, 133, 0.055); font-size: 0.8em; padding: 5px; height: 24px;}
+.email {background-color: rgba(133, 133, 133, 0.055); padding: 5px; height: 24px;}
 
-.email p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.email p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 0.8em;}
 
 .pesquisa {padding: 10px;background-color: #7AF3EF; width: 100%; height: 55px ;float: left;}
 .pesquisa i {color: white; float: left; margin-top: 8px; margin-right: 10px;}
@@ -23,19 +23,23 @@ ul li {list-style: none;}
 
 .acesso {float: right; padding: 0 1%;}
 .carrinho {margin-top: 2px;}
-.user {margin-bottom: 2px; margin-right: 8px;}
+.user {margin-bottom: 1px; margin-right: 8px;}
 
 .cabecalho {width: 100%; height: 150px;background-color: rgba(0, 0, 0, 0.829); float: left; color: white; padding: 8px 0 0 2%;}
 .cabecalho img { width: 120px; height: 120px; float: left; margin-top: 0.5%;}
 
 .navegacao {padding: 30px; height: 80px;}
 .navegacao ul li {float: right; letter-spacing: 5px; margin-right: 80px; margin-top: 2.3%;}
-.navegacao ul li a{color: white; font-size: 1.2em;text-decoration: none;}
-
+.navegacao ul li a{color: white; font-size: 1.4em; font-weight: 600;text-decoration: none; }
 .navegacao ul li a:hover{color: rgba(255, 255, 255, 0.384);}
+
 #carouselExampleIndicators {width: 90%; margin: auto;}
-.slides {padding: 5px ;margin-top: 200px; width: 100%; height: 455px; background-color: rgba(0, 0, 0, 0.219);}
+.slides { margin-top: 200px; width: 100%; height: 475px; background-color: rgba(0, 0, 0, 0.219);}
+.slides p {font-size: 1.2em}
 
-main {background-color: rgba(128, 128, 128, 0.13);;}
+main {background-color: rgba(0, 0, 0, 0.219); padding: 10px;}
+.product-block { margin-bottom: 50px;}
 
-.page-header {margin-top: 30px; margin-bottom: 30px;}
+.page-header {margin-top: 30px; margin-bottom: 40px;}
+footer {background-color: rgba(0, 0, 0, 0.829); color: white;}
+
