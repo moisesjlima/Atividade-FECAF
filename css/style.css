@@ -3,43 +3,230 @@
     padding: 0;
     outline: 0;
 }
-body {font-family: Arial, Helvetica, sans-serif;}
-ul li {list-style: none;}
 
-.colorido { 
-    height: 2px; width: 100% ; 
-    background-image: linear-gradient(to left, #ff86b5 , #ffa857 , #ffb146 , #ffba36 , #ffc227 , #ffca19 , #f8d110 , #e5d812 , #d1de1e, #6bef63 , #3ff276 , #00f48a , #00f69f, #00f7b5 )
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+.colorido {
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to left, #ff86b5, #ffa857, #ffb146, #ffba36, #ffc227, #ffca19, #f8d110, #e5d812, #d1de1e, #6bef63, #3ff276, #00f48a, #00f69f, #00f7b5)
+}
+
+.pesquisa {
+    padding: 10px;
+    background-color: #7AF3EF;
+    width: 100%;
+    height: 55px;
+    float: left;
+}
+
+.pesquisa i {
+    color: white;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.pesquisa input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    float: left;
+    width: 18%;
+}
+
+.pesquisa input:hover {
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
+.acesso {
+    float: right;
+    padding: 0 1%;
+}
+
+.carrinho {
+    margin-top: 2px;
+}
+
+.user {
+    margin-bottom: 1px;
+    margin-right: 8px;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.829);
+    float: left;
+    color: white;
+    padding: 8px 0 0 2%;
+}
+
+.cabecalho img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-top: 0.5%;
+}
+
+.navegacao {
+    padding: 30px;
+    height: 80px;
+}
+
+.navegacao ul li {
+    float: right;
+    letter-spacing: 5px;
+    margin-right: 80px;
+    margin-top: 1.5%;
+}
+
+.navegacao ul li a {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navegacao ul li a:hover {
+    color: rgba(255, 255, 255, 0.384);
+}
+
+#carouselExampleIndicators {
+    width: 90%;
+    margin: auto;
+}
+
+.slides {
+    margin-top: 200px;
+    width: 100%;
+    height: 475px;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.slides p {
+    font-size: 1.2em
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-block {
+    margin-bottom: 50px;
+}
+
+.page-header {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+}
+
+.product-block img {
+    width: 240px;
+}
+
+
+/*PRODUTOS*/
+
+
+/*PARTE RESPONSIVEL*/
+
+@media screen and (max-width: 760px) {
+    .pesquisa input {
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        float: left;
+        width: 28%;
     }
+    #carouselExampleIndicators {
+        width: 100%;
+    }
+    .navegacao ul li {
+        float: right;
+        font-size: 0.8em;
+        letter-spacing: 2px;
+        margin-right: 20px;
+        margin-top: 3%;
+    }
+    .cabecalho img {
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-top: 3%;
+    }
+}
 
-.email {background-color: rgba(133, 133, 133, 0.055); padding: 5px; height: 24px;}
+@media screen and (max-width: 520px) {
+    .navegacao ul li {
+        font-size: 0.8em;
+        float: right;
+        letter-spacing: 2px;
+        margin-right: 18px;
+        margin-top: 4%;
+    }
+}
 
-.email p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 0.8em;}
 
-.pesquisa {padding: 10px;background-color: #7AF3EF; width: 100%; height: 55px ;float: left;}
-.pesquisa i {color: white; float: left; margin-top: 8px; margin-right: 10px;}
-.pesquisa input {padding: 5px; border-radius: 5px; border: none; float: left; width: 18%;}
+/*SOBRE*/
 
-.pesquisa input:hover {background-color:rgba(255, 255, 255, 0.747);}
+.about {
+    background-color: #037ff365;
+    width: 100%;
+    padding: 150px;
+    color: white;
+}
 
-.acesso {float: right; padding: 0 1%;}
-.carrinho {margin-top: 2px;}
-.user {margin-bottom: 1px; margin-right: 8px;}
+.about h5 {
+    font-size: 2em;
+}
 
-.cabecalho {width: 100%; height: 150px;background-color: rgba(0, 0, 0, 0.829); float: left; color: white; padding: 8px 0 0 2%;}
-.cabecalho img { width: 120px; height: 120px; float: left; margin-top: 0.5%;}
+.about h1 {
+    font-size: 4em;
+    width: 380px;
+}
 
-.navegacao {padding: 30px; height: 80px;}
-.navegacao ul li {float: right; letter-spacing: 5px; margin-right: 80px; margin-top: 2.3%;}
-.navegacao ul li a{color: white; font-size: 1.4em; font-weight: 600;text-decoration: none; }
-.navegacao ul li a:hover{color: rgba(255, 255, 255, 0.384);}
+.about-apresentation {
+    padding: 30px;
+    width: 800px;
+    margin: auto;
+}
 
-#carouselExampleIndicators {width: 90%; margin: auto;}
-.slides { margin-top: 200px; width: 100%; height: 475px; background-color: rgba(0, 0, 0, 0.219);}
-.slides p {font-size: 1.2em}
+.about-apresentation h2 {
+    text-align: center;
+    font-size: 3em;
+}
 
-main {background-color: rgba(0, 0, 0, 0.219); padding: 10px;}
-.product-block { margin-bottom: 50px;}
+.about-apresentation p {
+    text-align: justify;
+    font-size: 1.2em;
+}
 
-.page-header {margin-top: 30px; margin-bottom: 40px;}
-footer {background-color: rgba(0, 0, 0, 0.829); color: white;}
+.banner-us {
+    background: url('../img/bluemoon-b.png');
+    height: 500px;
+    width: 100%;
+    margin: auto;
+}
 
+.banner-us h3 {
+    color: white;
+    font-size: 3.5em;
+    width: 80%;
+    margin: auto;
+    padding: 150px;
+    text-align: justify;
+}
