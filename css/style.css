@@ -100,6 +100,7 @@ ul li {
 
 #carouselExampleIndicators {
     width: 90%;
+    height: 470px;
     margin: auto;
 }
 
@@ -175,8 +176,21 @@ footer {
         font-size: 0.8em;
         float: right;
         letter-spacing: 2px;
-        margin-right: 18px;
-        margin-top: 4%;
+        margin-right: 10px;
+        margin-top: 4.5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navegacao ul li {
+        font-size: 0.6em;
+        float: right;
+        margin-right: 5px;
+        margin-top: 6%;
+        padding: 5px;
+    }
+    #carouselExampleIndicators {
+        height: 100px
     }
 }
 
@@ -184,10 +198,11 @@ footer {
 /*SOBRE*/
 
 .about {
-    background-color: #037ff365;
+    background-color: #005fb8c7;
     width: 100%;
-    padding: 150px;
+    padding: 50px;
     color: white;
+    border-radius: 0 0 10px 10px;
 }
 
 .about h5 {
@@ -195,38 +210,60 @@ footer {
 }
 
 .about h1 {
-    font-size: 4em;
+    font-size: 3.3em;
     width: 380px;
 }
 
 .about-apresentation {
-    padding: 30px;
-    width: 800px;
-    margin: auto;
+    padding: 60px;
 }
 
 .about-apresentation h2 {
     text-align: center;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 .about-apresentation p {
+    margin-top: 50px;
+    text-align: center;
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .banner-us {
     background: url('../img/bluemoon-b.png');
-    height: 500px;
     width: 100%;
     margin: auto;
+    border-radius: 10px 10px 0 0;
+    padding: 80px;
+    height: 400px;
 }
 
 .banner-us h3 {
     color: white;
-    font-size: 3.5em;
-    width: 80%;
-    margin: auto;
-    padding: 150px;
+    font-size: 2.8em;
     text-align: justify;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-group {
+    padding: 30px;
+}
+
+.about-group h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    padding: 15px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+.btn {
+    margin-top: 10px;
 }
