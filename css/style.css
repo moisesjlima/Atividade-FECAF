@@ -179,12 +179,12 @@ footer {
         margin-right: 10px;
         margin-top: 4.5%;
     }
-    .banner-us {
-        height: 500px;
+    div.banner-us {
+        height: 450px;
     }
-    .banner-us h3 {
+    div.banner-us h3 {
         color: white;
-        font-size: 2.5em;
+        font-size: 2em;
         text-align: justify;
         text-align: center;
         margin-top: 10px;
@@ -200,7 +200,7 @@ footer {
         padding: 5px;
     }
     .banner-us {
-        height: 500px;
+        height: 450px;
     }
     .banner-us h3 {
         color: white;
@@ -253,7 +253,7 @@ footer {
     margin: auto;
     border-radius: 10px 10px 0 0;
     padding: 80px;
-    height: 400px;
+    height: 420px;
 }
 
 .banner-us h3 {
@@ -283,4 +283,14 @@ footer {
 
 .btn {
     margin-top: 10px;
+}
+
+button.btn-more {
+    width: 20%;
+    margin-bottom: 40px;
+    padding: 5px;
+    background-color: #005fb8fa;
+    border: none;
+    border-radius: 10px;
+    color: white;
 }
